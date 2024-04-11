@@ -1,0 +1,15 @@
+h1{
+    background-color: rgb(210, 55, 31);
+    border-radius: 15px;
+    width: 220px;
+    border: 1px solid ; 
+}
+#Flamesimg{
+    width: 500px;
+    border: 15px solid #720f02; /* Border properties */
+    border-radius: 50px;
+    
+}
+.indented-paragraph {
+    text-indent: 2em; /* You can adjust this value as needed */
+  }
