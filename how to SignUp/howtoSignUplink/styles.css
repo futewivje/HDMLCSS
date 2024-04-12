@@ -1,0 +1,12 @@
+.hi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding:90px 10px 100px 100px;
+    box-shadow: 20px 20px 40px 10px; color: rgb(27, 208, 175) ;
+}
