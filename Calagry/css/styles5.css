@@ -7,10 +7,10 @@
 }
 
 body {
-  background-image: url("img/backgroundmcalgary.png");
+  background-image: url("../img/backgroundmcalgary.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
   margin: 0;
 }
 
