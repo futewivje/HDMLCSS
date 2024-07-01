@@ -1,0 +1,17 @@
+.nav-item:hover {
+  background-color: rgb(21, 225, 157);
+}
+
+.carousel-item active {
+  height: 32rem;
+  background-color: aqua;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
