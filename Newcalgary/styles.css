@@ -1,0 +1,134 @@
+.logoo {
+  color: #eeeeee;
+  width: 158px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  float: left;
+  padding: 10px;
+  color: #eeeeee;
+  position: relative;
+  padding-left: 30px;
+}
+.search {
+  display: flex;
+  padding: 14px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  transition: box-shadow 0.9s;
+  margin-top: 10px;
+  width: 450px;
+  margin-left: 550px;
+  padding-top: -20px;
+  padding-bottom: 15pxpx;
+  position: relative;
+}
+
+.search:focus-within {
+  background: #eeeeee;
+  box-shadow: 0 0 3px #0e0505;
+}
+.search-input {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  color: #0a0909;
+  margin-left: 14px;
+  width: 450px;
+  border: none;
+  outline: none;
+  background: transparent;
+  align-items: center;
+}
+.search-input::placeholder,
+.search-icon {
+  color: rgb(117, 117, 120);
+
+  align-items: center;
+}
+
+.elements {
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.element {
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(5, 6, 7);
+}
+
+.elements :hover {
+  background-color: transparent;
+  color: rgb(152, 235, 235);
+}
+.city {
+  padding-top: 40px;
+}
+
+.location {
+  padding-top: 35px;
+}
+.weather {
+  padding-top: 35px;
+}
+.Tower {
+  padding-top: 35px;
+}
+.park {
+  padding-top: 35px;
+}
+.stadium {
+  padding-top: 35px;
+}
+#hi {
+  font-size: smaller;
+}
+.road {
+  padding-top: 35px;
+}
+.active {
+  padding-top: 35px;
+}
+.tran {
+  padding-top: 35px;
+}
+.culture {
+  padding-top: 35px;
+}
+.money {
+  padding-top: 35px;
+}
+.sport {
+  padding-top: 35px;
+}
+.education {
+  padding-top: 35px;
+}
+.shop {
+  padding-top: 35px;
+}
+.health {
+  padding-top: 35px;
+}
+.elements {
+  background: #3a55ee;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 20px 9px 0 25px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a0909;
+  border-radius: 15px;
+}
