@@ -1,20 +1,23 @@
 .logoo {
-  color: #eeeeee;
   width: 158px;
   height: 40px;
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
   float: left;
   padding-top: 10px;
-  color: #eeeeee;
+  color: rgba(255, 255, 255, 0.7);
   position: relative;
   padding-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.pad {
+  padding-bottom: 50px;
 }
 .search {
   display: flex;
   padding: 14px;
   border-radius: 20px;
-  color: rgb(131, 130, 130);
+  color: rgb(221, 218, 218);
   transition: box-shadow 0.9s;
   margin-top: 10px;
   width: 450px;
@@ -22,7 +25,7 @@
   padding-top: -20px;
   padding-bottom: 15pxpx;
   position: relative;
-  border: 0.1px solid rgb(131, 130, 130);
+  border: 0.1px solid rgb(175, 172, 172);
 }
 
 .search:focus-within {
@@ -31,24 +34,28 @@
 }
 .search-input {
   font-size: 16px;
-  font-family: "Lexend", sans-serif;
-  color: #0a0909;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 251, 251);
   margin-left: 14px;
   width: 450px;
   border: none;
   outline: none;
   background: transparent;
   align-items: center;
+  caret-color: rgb(243, 240, 240);
 }
 .search-input::placeholder,
 .search-icon {
-  color: rgb(248, 248, 248);
+  color: rgba(255, 255, 255, 0.8);
 
   align-items: center;
 }
+#searchsymbol {
+  color: rgb(209, 209, 209);
+}
 
 .elements {
-  padding-left: 40px;
+  padding-left: 45px;
   padding-top: 25px;
   padding-bottom: 20px;
 }
@@ -58,77 +65,91 @@
 
 a {
   text-decoration: none;
-  color: rgb(178, 173, 173);
+  color: rgba(255, 255, 255, 0.5);
+}
+.material-symbols-outlined {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .element-item:hover * {
-  background-color: #dcdbdb;
-  color: rgb(2, 3, 3);
+  color: rgba(255, 255, 255, 1);
   border-radius: 5px;
 }
 .city {
-  padding-top: 40px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .location {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .weather {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .Tower {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .park {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .stadium {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 #hi {
   font-size: smaller;
+  font-family: "Times New Roman", Times, serif;
 }
 .road {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .active {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .tran {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .culture {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .money {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .sport {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .education {
   padding-top: 35px;
-  font-size: smaller;
+  font-family: "Times New Roman", Times, serif;
 }
 .shop {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .health {
   padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
 .elements {
   position: fixed;
   width: 260px;
-  height: 100%;
+  height: 85%;
   display: flex;
   flex-direction: column;
   overflow: auto;
-  padding: 20px 9px 0 50px;
 }
 
 ::-webkit-scrollbar {
   width: 1px;
-  height: 50%;
 }
 
 ::-webkit-scrollbar-thumb {
