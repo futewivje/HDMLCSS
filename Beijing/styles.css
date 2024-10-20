@@ -5,7 +5,7 @@
 }
 
 body {
-  background: aliceblue;
+  background: #000;
 }
 .container {
   position: absolute; /* Element is positioned absolutely relative to the closest positioned ancestor
@@ -86,7 +86,7 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
   opacity: 0;
-  animation: animate 2s ease-in-out 0.1s 1 forwards;
+  animation: animate 1s ease-in-out 0.1s 1 forwards;
 }
 
 .content button {
