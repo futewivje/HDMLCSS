@@ -134,3 +134,7 @@ body {
   background: rgb(153, 168, 181);
   color: rgb(253, 253, 253);
 }
+
+.button {
+  border-radius: 10px;
+}
